@@ -39,7 +39,7 @@
     "ulid": "^2.3.0"
   },
   "peerDependencies": {
-    "aws-sdk": "^2.387.0",
+    "aws-sdk": "^2.1354.0",
     "graphql": "^14.x || ^15.x",
     "graphql-subscriptions": "^1.0.0",
     "ioredis": "^4.17.3"
