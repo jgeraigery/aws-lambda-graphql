@@ -3451,10 +3451,12 @@
     "@types/node" "*"
     form-data "^3.0.0"
 
-"@types/node@*", "@types/node@10.17.5", "@types/node@>= 8", "@types/node@>=6", "@types/node@^10.1.0", "@types/node@^13.7.0":
-  version "10.17.5"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-10.17.5.tgz#c1920150f7b90708a7d0f3add12a06bc9123c055"
-  integrity sha512-RElZIr/7JreF1eY6oD5RF3kpmdcreuQPjg5ri4oQ5g9sq7YWU8HkfB3eH8GwAwxf5OaCh0VPi7r4N/yoTGelrA==
+"@types/node@*", "@types/node@22.18.12", "@types/node@>= 8", "@types/node@>=6", "@types/node@^10.1.0", "@types/node@^13.7.0":
+  version "22.18.12"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-22.18.12.tgz#e165d87bc25d7bf6d3657035c914db7485de84fb"
+  integrity sha512-BICHQ67iqxQGFSzfCFTT7MRQ5XcBjG5aeKh5Ok38UBbPe5fxTyE+aHFxwVrGyr8GNlqFMLKD1D3P2K/1ks8tog==
+  dependencies:
+    undici-types "~6.21.0"
 
 "@types/normalize-package-data@^2.4.0":
   version "2.4.0"
@@ -17416,6 +17418,11 @@ unbzip2-stream@^1.0.9:
   dependencies:
     buffer "^5.2.1"
     through "^2.3.8"
+
+undici-types@~6.21.0:
+  version "6.21.0"
+  resolved "https://registry.yarnpkg.com/undici-types/-/undici-types-6.21.0.tgz#691d00af3909be93a7faa13be61b3a5b50ef12cb"
+  integrity sha512-iwDZqg0QAGrg9Rav5H4n0M64c3mkR59cJ6wQp+7C4nI0gsmExaedaYLNO44eT4AtBBwjbTiGPMlt2Md0T9H9JQ==
 
 unicode-canonical-property-names-ecmascript@^1.0.4:
   version "1.0.4"
